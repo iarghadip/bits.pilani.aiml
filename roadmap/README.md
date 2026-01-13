@@ -32,9 +32,6 @@ Open the **Apple Notes** app, create a new note (e.g., titled "Sem 1 AI/ML Track
 Now, you will separate the "Headers" from the "To-Do" items:
 
 1.  Place your cursor on a **Milestone** line (e.g., *Milestone 1: Linear Algebra...*).
-2.  Tap the **Checklist Icon** again to **remove** the checkbox from that specific line.
-3.  Tap the **Aa** formatting button (or "BIU" menu on mobile) and select **Subheading** (or Bold).
-    * *This makes the text big and bold, acting as a clear divider.*
-
-### **Step 5: Repeat for Headers**
-Repeat Step 4 for each "Milestone" line. You will be left with bold headers and a clean list of clickable checkboxes underneath each one.
+2.  Tap the **Aa** formatting button (or "BIU" menu on mobile) and select **Subheading** (or Bold).
+    * *This makes the text big and bold and removes the checkbox from header, acting as a clear divider.*
+3. Repeat Step 1 & 2 for each "Milestone" line.
