@@ -1,0 +1,52 @@
+Machine Learning
+
+Milestone 1: Foundations & Data Preparation
+
+Types of Learning: Distinguishing Supervised, Unsupervised, Semi-supervised, and Reinforcement Learning.
+The Machine Learning Pipeline: Data collection, preprocessing, modeling, evaluation, and deployment.
+Data Preprocessing: Handling missing values (imputation), categorical encoding (One-Hot, Label), and feature scaling (Standardization vs. Normalization).
+Bias-Variance Tradeoff: Understanding the relationship between model complexity, underfitting (high bias), and overfitting (high variance).
+Train-Test Split: The importance of hold-out sets and random seeds.
+Cross-Validation: K-Fold Cross-Validation and Stratified K-Fold to ensure robust performance estimates.
+
+Milestone 2: Supervised Learning — Regression
+
+Simple Linear Regression: The hypothesis function and the "Best Fit Line".
+Cost Function: Understanding Mean Squared Error (MSE) and the objective to minimize it.
+Gradient Descent for Regression: Deriving the update rules for weights to minimize cost.
+Multiple Linear Regression: extending to multiple features ( dimensions).
+Polynomial Regression: Fitting non-linear data by transforming features.
+Regularization: Ridge (L2) and Lasso (L1) regression to prevent overfitting and perform feature selection.
+
+Milestone 3: Supervised Learning — Classification
+
+Logistic Regression: The Sigmoid function, decision boundaries, and Log Loss (Binary Cross-Entropy).
+
+K-Nearest Neighbors (KNN): Lazy learning, choosing 'K', and distance metrics (Euclidean, Manhattan).
+Naive Bayes: Applying Bayes' theorem with the "naive" independence assumption (Gaussian, Multinomial).
+Support Vector Machines (SVM): Maximum margin classifier, support vectors, and the Kernel Trick (RBF, Polynomial) for non-linear data.
+Decision Trees: Root nodes, leaf nodes, splitting criteria (Entropy, Information Gain, Gini Impurity), and pruning.
+
+Milestone 4: Ensemble Methods
+
+Bagging (Bootstrap Aggregating): Reducing variance by training multiple models on random subsets (e.g., Random Forest).
+Random Forests: Building multiple decision trees and feature randomness to create a robust model.
+Boosting: Sequential learning to correct errors of previous models (reducing bias).
+AdaBoost & Gradient Boosting: The mechanics of weighting misclassified points and optimizing residuals.
+XGBoost/LightGBM: Overview of modern, high-performance boosting libraries.
+
+Milestone 5: Unsupervised Learning
+
+Clustering Analysis: Grouping unlabeled data based on similarity.
+K-Means Clustering: Centroid initialization, the expectation-maximization cycle, and the "Elbow Method" for choosing K.
+Hierarchical Clustering: Agglomerative vs. Divisive approaches and interpreting Dendrograms.
+Dimensionality Reduction: The Curse of Dimensionality and the need for reduction.
+Principal Component Analysis (PCA): Projecting data onto orthogonal axes to maximize variance (practical application).
+
+Milestone 6: Model Evaluation & Improvement
+
+Classification Metrics: Accuracy, Precision, Recall, F1-Score, and the Confusion Matrix.
+ROC & AUC: Receiver Operating Characteristic curve and Area Under Curve for threshold-independent evaluation.
+Regression Metrics: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), and Score.
+Hyperparameter Tuning: Grid Search and Randomized Search to find optimal model settings.
+Pipeline Construction: Chaining preprocessing and modeling steps to prevent data leakage.

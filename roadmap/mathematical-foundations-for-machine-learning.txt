@@ -1,0 +1,49 @@
+Mathematical Foundations for Machine Learning
+
+Milestone 1: Linear Algebra — Basics & Matrix Operations
+
+Scalars, Vectors, and Matrices: Definitions, notation, and basic arithmetic (addition, scalar multiplication).
+Matrix Multiplication: Dot product, matrix-vector multiplication, and matrix-matrix multiplication rules.
+Special Matrices: Identity, Diagonal, Symmetric, Orthogonal, and Triangular matrices.
+Matrix Properties: Trace, Determinant, and Inverse (existence and calculation).
+Norms: Vector norms (, , , ) and Matrix norms (Frobenius norm).
+
+Milestone 2: Linear Algebra — Vector Spaces & Geometry
+
+Vector Spaces: Definition of vector space and subspaces.
+Linear Independence: Spanning sets, linear combinations, and checking for independence.
+Basis and Dimension: Standard basis, change of basis, and rank of a matrix.
+Orthogonality: Orthogonal vectors, orthonormal basis, and Gram-Schmidt process.
+Projections: Projecting a vector onto a subspace (crucial for Least Squares and PCA).
+
+Milestone 3: Linear Algebra — Decompositions
+
+Eigenvalues and Eigenvectors: Characteristic equations, finding eigenvalues, and their geometric interpretation.
+Diagonalization: Decomposing a matrix into .
+Singular Value Decomposition (SVD): Concept, calculation, and applications (image compression, dimensionality reduction).
+Cholesky Decomposition: Decomposing positive-definite matrices (used in efficient numerical solutions).
+Principal Component Analysis (PCA): Mathematical formulation using covariance matrix and eigenvectors.
+
+Milestone 4: Multivariable Calculus — Differentiation
+
+Partial Derivatives: Calculating derivatives for functions of multiple variables.
+The Gradient Vector: Definition, properties, and calculating the direction of steepest ascent.
+The Jacobian Matrix: First-order partial derivatives for vector-valued functions.
+The Hessian Matrix: Second-order partial derivatives and understanding local curvature (concavity/convexity).
+Chain Rule for Multivariable Functions: Computing derivatives of composite functions (foundation of Backpropagation).
+Taylor Series Expansion: Approximating functions using Taylor polynomials (First-order and Second-order approx).
+
+Milestone 5: Optimization — Unconstrained
+
+Critical Points: Identifying local minima, maxima, and saddle points using Gradient and Hessian.
+Convexity: Convex sets, convex functions, and Jensen’s Inequality.
+Gradient Descent (GD): The basic update rule, learning rate, and convergence logic.
+Stochastic Gradient Descent (SGD): Difference between Batch GD, Mini-batch GD, and SGD.
+Momentum & Advanced Optimizers: Mathematical concept behind Momentum, RMSProp, and Adam.
+
+Milestone 6: Optimization — Constrained
+
+Lagrange Multipliers: Solving optimization problems with equality constraints.
+The Lagrangian Function: Formulating the Lagrangian.
+KKT Conditions (Karush-Kuhn-Tucker): Necessary conditions for inequality constrained optimization (core to SVMs).
+Duality: Primal problem vs. Dual problem, and the Duality Gap.
