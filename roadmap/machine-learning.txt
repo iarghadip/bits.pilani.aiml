@@ -2,51 +2,51 @@ Machine Learning
 
 Milestone 1: Foundations & Data Preparation
 
-Types of Learning: Distinguishing Supervised, Unsupervised, Semi-supervised, and Reinforcement Learning.
-The Machine Learning Pipeline: Data collection, preprocessing, modeling, evaluation, and deployment.
-Data Preprocessing: Handling missing values (imputation), categorical encoding (One-Hot, Label), and feature scaling (Standardization vs. Normalization).
-Bias-Variance Tradeoff: Understanding the relationship between model complexity, underfitting (high bias), and overfitting (high variance).
-Train-Test Split: The importance of hold-out sets and random seeds.
-Cross-Validation: K-Fold Cross-Validation and Stratified K-Fold to ensure robust performance estimates.
+Types of Learning: Distinguishing between supervised, unsupervised, semi-supervised, and reinforcement learning.
+The Machine Learning Pipeline: End-to-end workflow including data collection, preprocessing, model training, evaluation, and deployment.
+Data Preprocessing: Handling missing values through imputation, encoding categorical variables (one-hot encoding and label encoding), and feature scaling (standardization vs. normalization).
+Bias–Variance Tradeoff: Understanding the relationship between model complexity, underfitting (high bias), and overfitting (high variance).
+Train–Test Split: Importance of hold-out validation sets, randomness, and the role of random seeds.
+Cross-Validation: K-Fold cross-validation and stratified K-Fold techniques for robust performance estimation.
 
 Milestone 2: Supervised Learning — Regression
 
-Simple Linear Regression: The hypothesis function and the "Best Fit Line".
-Cost Function: Understanding Mean Squared Error (MSE) and the objective to minimize it.
-Gradient Descent for Regression: Deriving the update rules for weights to minimize cost.
-Multiple Linear Regression: extending to multiple features ( dimensions).
-Polynomial Regression: Fitting non-linear data by transforming features.
-Regularization: Ridge (L2) and Lasso (L1) regression to prevent overfitting and perform feature selection.
+Simple Linear Regression: The hypothesis function and interpretation of the best-fit line.
+Cost Function: Mean Squared Error (MSE) and the objective of minimizing prediction error.
+Gradient Descent for Regression: Deriving and applying update rules for model parameters.
+Multiple Linear Regression: Extending linear regression to multiple input features (n-dimensional feature space).
+Polynomial Regression: Modeling non-linear relationships by transforming input features.
+Regularization: Ridge (L2) and Lasso (L1) regression to reduce overfitting and enable feature selection.
 
 Milestone 3: Supervised Learning — Classification
 
-Logistic Regression: The Sigmoid function, decision boundaries, and Log Loss (Binary Cross-Entropy).
+Logistic Regression: The sigmoid function, decision boundaries, and log loss (binary cross-entropy).
 
-K-Nearest Neighbors (KNN): Lazy learning, choosing 'K', and distance metrics (Euclidean, Manhattan).
-Naive Bayes: Applying Bayes' theorem with the "naive" independence assumption (Gaussian, Multinomial).
-Support Vector Machines (SVM): Maximum margin classifier, support vectors, and the Kernel Trick (RBF, Polynomial) for non-linear data.
-Decision Trees: Root nodes, leaf nodes, splitting criteria (Entropy, Information Gain, Gini Impurity), and pruning.
+K-Nearest Neighbors (KNN): Instance-based learning, selecting the value of K, and distance metrics such as Euclidean and Manhattan distance.
+Naive Bayes: Probabilistic classification using Bayes’ theorem with the naive conditional independence assumption (Gaussian and Multinomial variants).
+Support Vector Machines (SVM): Maximum margin classification, support vectors, and the kernel trick (RBF and polynomial kernels) for non-linear decision boundaries.
+Decision Trees: Tree structure including root and leaf nodes, splitting criteria (entropy, information gain, Gini impurity), and pruning techniques.
 
 Milestone 4: Ensemble Methods
 
-Bagging (Bootstrap Aggregating): Reducing variance by training multiple models on random subsets (e.g., Random Forest).
-Random Forests: Building multiple decision trees and feature randomness to create a robust model.
-Boosting: Sequential learning to correct errors of previous models (reducing bias).
-AdaBoost & Gradient Boosting: The mechanics of weighting misclassified points and optimizing residuals.
-XGBoost/LightGBM: Overview of modern, high-performance boosting libraries.
+Bagging (Bootstrap Aggregating): Reducing variance by training multiple models on bootstrapped subsets of data (e.g., Random Forests).
+Random Forests: Constructing ensembles of decision trees using feature randomness and bagging for improved generalization.
+Boosting: Sequential learning framework that focuses on correcting errors made by previous models to reduce bias.
+AdaBoost & Gradient Boosting: Weighting misclassified samples and iteratively optimizing residual errors.
+XGBoost / LightGBM: Overview of modern, high-performance gradient boosting frameworks optimized for speed and scalability.
 
 Milestone 5: Unsupervised Learning
 
-Clustering Analysis: Grouping unlabeled data based on similarity.
-K-Means Clustering: Centroid initialization, the expectation-maximization cycle, and the "Elbow Method" for choosing K.
-Hierarchical Clustering: Agglomerative vs. Divisive approaches and interpreting Dendrograms.
-Dimensionality Reduction: The Curse of Dimensionality and the need for reduction.
-Principal Component Analysis (PCA): Projecting data onto orthogonal axes to maximize variance (practical application).
+Clustering Analysis: Grouping unlabeled data points based on similarity measures.
+K-Means Clustering: Centroid initialization, the iterative expectation–minimization process, and the elbow method for selecting the number of clusters.
+Hierarchical Clustering: Agglomerative and divisive approaches, along with interpretation of dendrograms.
+Dimensionality Reduction: Understanding the curse of dimensionality and motivations for reducing feature space.
+Principal Component Analysis (PCA): Projecting data onto orthogonal components that maximize variance for practical dimensionality reduction.
 
 Milestone 6: Model Evaluation & Improvement
 
-Classification Metrics: Accuracy, Precision, Recall, F1-Score, and the Confusion Matrix.
-ROC & AUC: Receiver Operating Characteristic curve and Area Under Curve for threshold-independent evaluation.
-Regression Metrics: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), and Score.
-Hyperparameter Tuning: Grid Search and Randomized Search to find optimal model settings.
-Pipeline Construction: Chaining preprocessing and modeling steps to prevent data leakage.
+Classification Metrics: Accuracy, precision, recall, F1-score, and interpretation of the confusion matrix.
+ROC & AUC: Receiver Operating Characteristic curve and Area Under the Curve for threshold-independent evaluation.
+Regression Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and coefficient of determination (R² score).
+Hyperparameter Tuning: Grid search and randomized search strategies for selecting optimal model hyperparameters.
+Pipeline Construction: Building end-to-end machine learning pipelines to chain preprocessing and modeling steps while preventing data leakage.

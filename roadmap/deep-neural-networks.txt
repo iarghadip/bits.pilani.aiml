@@ -2,49 +2,47 @@ Deep Neural Networks
 
 Milestone 1: Neural Network Foundations
 
-The Perceptron: Biological inspiration, the mathematical model, and the XOR problem.
-Multi-Layer Perceptron (MLP): Hidden layers, forward propagation, and universal approximation theorem.
-
-Activation Functions: Sigmoid, Tanh, ReLU (Rectified Linear Unit), and Softmax.
-Loss Functions: Cross-Entropy (for classification) vs. Mean Squared Error (for regression).
-Backpropagation: The Chain Rule applied to graphs, computing gradients, and updating weights.
+The Perceptron: Biological inspiration, the mathematical formulation, and limitations such as the XOR problem.
+Multi-Layer Perceptron (MLP): Hidden layers, forward propagation, and the universal approximation theorem.
+Activation Functions: Sigmoid, tanh, ReLU (Rectified Linear Unit), and softmax functions.
+Loss Functions: Cross-entropy loss for classification and mean squared error for regression.
+Backpropagation: Applying the chain rule to computational graphs to compute gradients and update weights.
 
 Milestone 2: Optimization & Tuning
 
-Weight Initialization: Zero vs. Random, Xavier (Glorot), and He initialization.
-The Vanishing/Exploding Gradient Problem: Why deep networks are hard to train and how to fix it.
-Optimization Algorithms: SGD with Momentum, RMSProp, and Adam (Adaptive Moment Estimation).
-Regularization: L1/L2 regularization to prevent overfitting.
-Dropout: Randomly deactivating neurons during training to improve robustness.
-Batch Normalization: Normalizing layer inputs to speed up training and stabilize gradients.
+Weight Initialization: Zero vs. random initialization, Xavier (Glorot), and He initialization strategies.
+The Vanishing and Exploding Gradient Problem: Challenges in training deep networks and common mitigation techniques.
+Optimization Algorithms: Stochastic Gradient Descent (SGD) with momentum, RMSProp, and Adam (Adaptive Moment Estimation).
+Regularization: L1 and L2 regularization techniques to reduce overfitting.
+Dropout: Randomly deactivating neurons during training to improve generalization.
+Batch Normalization: Normalizing intermediate layer activations to stabilize gradients and accelerate training.
 
 Milestone 3: Convolutional Neural Networks (CNNs) — Computer Vision
 
-Convolution Operation: Filters (Kernels), Stride, and Padding.
-
-Pooling Layers: Max Pooling vs. Average Pooling for dimensionality reduction.
-CNN Architectures: Understanding LeNet, AlexNet, and VGG-16.
-Advanced Architectures: ResNet (Skip connections/Residual blocks) and Inception modules.
-Transfer Learning: Using pre-trained weights (e.g., ImageNet) for new tasks.
+Convolution Operation: Filters (kernels), stride, padding, and feature map generation.
+Pooling Layers: Max pooling and average pooling for spatial dimensionality reduction.
+CNN Architectures: Classic architectures such as LeNet, AlexNet, and VGG-16.
+Advanced Architectures: ResNet with residual (skip) connections and Inception modules.
+Transfer Learning: Leveraging pre-trained models (e.g., trained on ImageNet) for new computer vision tasks.
 
 Milestone 4: Recurrent Neural Networks (RNNs) — Sequence Data
 
-Sequence Modeling: Handling time-series and text data.
-Standard RNNs: Hidden states and "Backpropagation Through Time" (BPTT).
-Long Short-Term Memory (LSTM): Forget gate, Input gate, and Output gate mechanisms.
-Gated Recurrent Unit (GRU): Simplified version of LSTM.
-Bidirectional RNNs: Processing sequences in both forward and backward directions.
+Sequence Modeling: Representing and learning from sequential data such as time series and text.
+Standard RNNs: Hidden state dynamics and backpropagation through time (BPTT).
+Long Short-Term Memory (LSTM): Forget, input, and output gate mechanisms for long-term dependency modeling.
+Gated Recurrent Unit (GRU): A simplified gated architecture compared to LSTMs.
+Bidirectional RNNs: Processing sequences in both forward and backward temporal directions.
 
 Milestone 5: Autoencoders & Generative Models
 
-Autoencoders: Encoder-Decoder architecture, bottlenecks, and reconstruction loss.
-Denoising Autoencoders: Learning robust features by corrupting inputs.
-Variational Autoencoders (VAEs): Probabilistic encoders and the reparameterization trick.
-Generative Adversarial Networks (GANs): Generator vs. Discriminator game theory and training instability.
+Autoencoders: Encoder–decoder architecture, latent bottlenecks, and reconstruction loss.
+Denoising Autoencoders: Learning robust representations by reconstructing corrupted inputs.
+Variational Autoencoders (VAEs): Probabilistic latent variable models and the reparameterization trick.
+Generative Adversarial Networks (GANs): Adversarial training between generator and discriminator networks and associated training challenges.
 
 Milestone 6: Attention & Transformers (Modern DL)
 
-Encoder-Decoder Models: Sequence-to-Sequence (Seq2Seq) for translation.
-Attention Mechanism: allowing the model to focus on specific parts of the input.
-The Transformer: Self-attention, Multi-head attention, and positional encoding (The "Attention is All You Need" paper).
-BERT & GPT: Brief overview of Pre-trained Language Models (PLMs).
+Encoder–Decoder Models: Sequence-to-sequence (Seq2Seq) architectures for tasks such as machine translation.
+Attention Mechanism: Allowing models to focus selectively on relevant parts of the input sequence.
+The Transformer: Self-attention, multi-head attention, and positional encoding as introduced in the “Attention Is All You Need” paper.
+BERT & GPT: High-level overview of pre-trained language models (PLMs) and their applications.

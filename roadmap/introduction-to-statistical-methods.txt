@@ -2,54 +2,54 @@ Introduction to Statistical Methods
 
 Milestone 1: Probability Fundamentals
 
-Sample Spaces & Events: Defining outcomes, events, and set operations (union, intersection).
-Axioms of Probability: The three foundational rules and their corollaries.
-Conditional Probability: Calculating probability given partial information.
-Independence: Mathematical definition of independent events vs. mutually exclusive events.
-Bayes’ Theorem: The formula for updating probabilities based on new evidence (Crucial for Naive Bayes classifiers).
-Total Probability Law: Breaking down complex probabilities into conditional parts.
+Sample Spaces & Events: Defining sample spaces, outcomes, events, and set operations such as union and intersection.
+Axioms of Probability: The three foundational axioms of probability and their important corollaries.
+Conditional Probability: Computing probabilities given partial or prior information.
+Independence: Mathematical definition of independent events and comparison with mutually exclusive events.
+Bayes’ Theorem: Updating probabilities based on new evidence, forming the foundation of Naive Bayes classifiers.
+Total Probability Law: Decomposing complex probabilities into sums of conditional probabilities.
 
 Milestone 2: Random Variables & Expectations
 
 Discrete Random Variables: Probability Mass Functions (PMF) and Cumulative Distribution Functions (CDF).
-Continuous Random Variables: Probability Density Functions (PDF) and integration for probabilities.
-Expectation (Mean): Expected value calculations for discrete and continuous variables.
-Variance & Standard Deviation: Measuring spread and dispersion in data.
-Moments: Skewness and Kurtosis (shape of the distribution).
-Moment Generating Functions (MGF): Using MGFs to find moments and identify distributions.
+Continuous Random Variables: Probability Density Functions (PDF) and computing probabilities using integration.
+Expectation (Mean): Calculating expected values for discrete and continuous random variables.
+Variance & Standard Deviation: Measuring dispersion and variability in random variables.
+Moments: Higher-order moments including skewness and kurtosis to describe distribution shape.
+Moment Generating Functions (MGF): Using MGFs to derive moments and identify probability distributions.
 
 Milestone 3: Common Probability Distributions
 
-Bernoulli & Binomial: Modeling binary outcomes and success counts.
-Poisson Distribution: Modeling rates of events over time/space.
-Uniform Distribution: Continuous and discrete uniform probabilities.
-Normal (Gaussian) Distribution: The Bell curve, standard normal (Z), and the empirical rule.
+Bernoulli & Binomial Distributions: Modeling binary outcomes and counts of successes in repeated trials.
+Poisson Distribution: Modeling the rate of occurrence of events over time or space.
+Uniform Distribution: Discrete and continuous uniform distributions with equal probability outcomes.
+Normal (Gaussian) Distribution: The bell curve, standard normal distribution (Z-scores), and the empirical rule.
 
-Exponential Distribution: Modeling time until an event occurs (memoryless property).
-Gamma & Beta Distributions: Flexible distributions often used as conjugate priors.
+Exponential Distribution: Modeling the time until an event occurs and the memoryless property.
+Gamma & Beta Distributions: Flexible continuous distributions commonly used as conjugate priors in Bayesian analysis.
 
 Milestone 4: Joint Distributions & Sampling
 
-Joint PDFs/PMFs: Probabilities involving two or more random variables.
-Marginal & Conditional Distributions: Extracting single-variable behavior from joint data.
-Covariance & Correlation: Quantifying linear relationships between variables.
-Independence of RVs: Checking if.
-The Central Limit Theorem (CLT): Why averages of samples tend to be Normal (foundational for inference).
-Sampling Distributions: Distribution of the sample mean and sample variance (Chi-square).
+Joint PDFs and PMFs: Modeling probabilities involving two or more random variables.
+Marginal & Conditional Distributions: Deriving single-variable distributions from joint distributions.
+Covariance & Correlation: Measuring the strength and direction of linear relationships between variables.
+Independence of Random Variables: Conditions and methods for checking whether random variables are independent.
+The Central Limit Theorem (CLT): Explaining why sample means tend toward a normal distribution.
+Sampling Distributions: Distributions of sample statistics such as the sample mean and sample variance (Chi-square distribution).
 
 Milestone 5: Estimation Theory
 
-Point Estimation: Using sample data to calculate a single value for a population parameter.
-Properties of Estimators: Bias, Consistency, Efficiency, and Mean Squared Error (MSE).
-Maximum Likelihood Estimation (MLE): Deriving parameters that maximize the likelihood function (The engine behind many ML models).
-Confidence Intervals: Constructing intervals for Mean (known/unknown variance) and Proportions.
-Prediction Intervals: Estimating the range for a future single observation.
+Point Estimation: Estimating population parameters using sample data.
+Properties of Estimators: Bias, consistency, efficiency, and mean squared error (MSE).
+Maximum Likelihood Estimation (MLE): Deriving parameter estimates that maximize the likelihood function.
+Confidence Intervals: Constructing confidence intervals for means (known and unknown variance) and proportions.
+Prediction Intervals: Estimating a plausible range for a future individual observation.
 
 Milestone 6: Hypothesis Testing
 
-Testing Basics: Null vs. Alternative hypotheses.
-Errors in Testing: Type I Error (False Positive) and Type II Error (False Negative).
+Testing Basics: Formulating null and alternative hypotheses.
+Errors in Testing: Type I errors (false positives) and Type II errors (false negatives).
 Power of a Test: Probability of correctly rejecting a false null hypothesis.
-Parametric Tests: Z-test and t-tests (one-sample, two-sample, paired).
-P-Value Approach: Interpreting p-values for decision making.
-Chi-Square Tests: Testing for Goodness of Fit and Independence (categorical data).
+Parametric Tests: Z-tests and t-tests including one-sample, two-sample, and paired tests.
+P-Value Approach: Interpreting p-values for statistical decision making.
+Chi-Square Tests: Goodness-of-fit and independence tests for categorical data.
