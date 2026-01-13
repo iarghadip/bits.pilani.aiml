@@ -19,7 +19,7 @@ Projections: Projecting a vector onto a subspace (crucial for Least Squares and 
 Milestone 3: Linear Algebra — Decompositions
 
 Eigenvalues and Eigenvectors: Characteristic equations, finding eigenvalues, and their geometric interpretation.
-Diagonalization: Decomposing a matrix into .
+Diagonalization: Decomposing a matrix into.
 Singular Value Decomposition (SVD): Concept, calculation, and applications (image compression, dimensionality reduction).
 Cholesky Decomposition: Decomposing positive-definite matrices (used in efficient numerical solutions).
 Principal Component Analysis (PCA): Mathematical formulation using covariance matrix and eigenvectors.
