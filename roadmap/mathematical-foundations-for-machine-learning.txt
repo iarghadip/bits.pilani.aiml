@@ -2,48 +2,48 @@ Mathematical Foundations for Machine Learning
 
 Milestone 1: Linear Algebra — Basics & Matrix Operations
 
-Scalars, Vectors, and Matrices: Definitions, notation, and basic arithmetic (addition, scalar multiplication).
-Matrix Multiplication: Dot product, matrix-vector multiplication, and matrix-matrix multiplication rules.
-Special Matrices: Identity, Diagonal, Symmetric, Orthogonal, and Triangular matrices.
-Matrix Properties: Trace, Determinant, and Inverse (existence and calculation).
-Norms: Vector norms (, , , ) and Matrix norms (Frobenius norm).
+Scalars, Vectors, and Matrices: Definitions, notation, and basic arithmetic operations such as addition and scalar multiplication.
+Matrix Multiplication: Dot product, matrix–vector multiplication, and matrix–matrix multiplication rules.
+Special Matrices: Identity, diagonal, symmetric, orthogonal, and triangular matrices.
+Matrix Properties: Trace, determinant, and inverse, including conditions for existence and methods of calculation.
+Norms: Vector norms (L1 norm, L2 norm, and L∞ norm) and matrix norms (Frobenius norm).
 
 Milestone 2: Linear Algebra — Vector Spaces & Geometry
 
-Vector Spaces: Definition of vector space and subspaces.
-Linear Independence: Spanning sets, linear combinations, and checking for independence.
-Basis and Dimension: Standard basis, change of basis, and rank of a matrix.
-Orthogonality: Orthogonal vectors, orthonormal basis, and Gram-Schmidt process.
-Projections: Projecting a vector onto a subspace (crucial for Least Squares and PCA).
+Vector Spaces: Definition of vector spaces and subspaces with illustrative examples.
+Linear Independence: Spanning sets, linear combinations, and methods for checking linear independence.
+Basis and Dimension: Standard basis, change of basis, dimension of a vector space, and rank of a matrix.
+Orthogonality: Orthogonal vectors, orthonormal bases, and the Gram–Schmidt orthogonalization process.
+Projections: Projecting a vector onto a subspace, with applications to Least Squares and Principal Component Analysis (PCA).
 
 Milestone 3: Linear Algebra — Decompositions
 
-Eigenvalues and Eigenvectors: Characteristic equations, finding eigenvalues, and their geometric interpretation.
-Diagonalization: Decomposing a matrix into.
-Singular Value Decomposition (SVD): Concept, calculation, and applications (image compression, dimensionality reduction).
-Cholesky Decomposition: Decomposing positive-definite matrices (used in efficient numerical solutions).
-Principal Component Analysis (PCA): Mathematical formulation using covariance matrix and eigenvectors.
+Eigenvalues and Eigenvectors: Characteristic equations, methods for finding eigenvalues, and their geometric interpretation.
+Diagonalization: Decomposing a matrix into the form A = PDP⁻¹ and understanding when diagonalization is possible.
+Singular Value Decomposition (SVD): Concept, computation, and applications such as image compression and dimensionality reduction.
+Cholesky Decomposition: Decomposing symmetric positive-definite matrices for efficient numerical solutions.
+Principal Component Analysis (PCA): Mathematical formulation using the covariance matrix and its eigenvalues and eigenvectors.
 
 Milestone 4: Multivariable Calculus — Differentiation
 
-Partial Derivatives: Calculating derivatives for functions of multiple variables.
-The Gradient Vector: Definition, properties, and calculating the direction of steepest ascent.
-The Jacobian Matrix: First-order partial derivatives for vector-valued functions.
-The Hessian Matrix: Second-order partial derivatives and understanding local curvature (concavity/convexity).
-Chain Rule for Multivariable Functions: Computing derivatives of composite functions (foundation of Backpropagation).
-Taylor Series Expansion: Approximating functions using Taylor polynomials (First-order and Second-order approx).
+Partial Derivatives: Computing derivatives of functions with multiple variables.
+The Gradient Vector: Definition, properties, and interpretation as the direction of steepest ascent.
+The Jacobian Matrix: Matrix of first-order partial derivatives for vector-valued functions.
+The Hessian Matrix: Matrix of second-order partial derivatives and its role in analyzing local curvature, concavity, and convexity.
+Chain Rule for Multivariable Functions: Computing derivatives of composite functions, forming the foundation of backpropagation.
+Taylor Series Expansion: Approximating multivariable functions using first-order and second-order Taylor polynomials.
 
 Milestone 5: Optimization — Unconstrained
 
-Critical Points: Identifying local minima, maxima, and saddle points using Gradient and Hessian.
-Convexity: Convex sets, convex functions, and Jensen’s Inequality.
-Gradient Descent (GD): The basic update rule, learning rate, and convergence logic.
-Stochastic Gradient Descent (SGD): Difference between Batch GD, Mini-batch GD, and SGD.
-Momentum & Advanced Optimizers: Mathematical concept behind Momentum, RMSProp, and Adam.
+Critical Points: Identifying local minima, local maxima, and saddle points using gradient and Hessian analysis.
+Convexity: Convex sets, convex functions, and Jensen’s inequality.
+Gradient Descent (GD): The gradient descent update rule, learning rate selection, and convergence behavior.
+Stochastic Gradient Descent (SGD): Differences between batch gradient descent, mini-batch gradient descent, and stochastic gradient descent.
+Momentum & Advanced Optimizers: Mathematical intuition behind momentum-based methods, RMSProp, and Adam.
 
 Milestone 6: Optimization — Constrained
 
 Lagrange Multipliers: Solving optimization problems with equality constraints.
-The Lagrangian Function: Formulating the Lagrangian.
-KKT Conditions (Karush-Kuhn-Tucker): Necessary conditions for inequality constrained optimization (core to SVMs).
-Duality: Primal problem vs. Dual problem, and the Duality Gap.
+The Lagrangian Function: Formulating and interpreting the Lagrangian for constrained optimization.
+KKT Conditions (Karush–Kuhn–Tucker): Necessary conditions for optimization problems with inequality constraints, fundamental to Support Vector Machines (SVMs).
+Duality: Relationship between the primal problem and the dual problem, including the concept of the duality gap.
